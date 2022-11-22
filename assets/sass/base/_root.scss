@@ -3,11 +3,11 @@ $fa-font-path: "/assets/node_modules/@fortawesome/fontawesome-free/webfonts";
 @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Poppins:200,400,700');
 
-$primary: #D79C34;
-$primary-light: #F9E5D0;
-$blue: #20285C;
-$pink: #ECB6B8;
-$pink-light: #F5DBDC;
+$primary: #C5B5F2;
+$primary-light: #CEF0D6;
+$blue: #14002F;
+$pink: #C5B5F2;
+$pink-light: #CEF0D6;
 $white: #FFFFFF;
 
 $family-primary:  'Poppins', sans-serif;
@@ -252,41 +252,6 @@ section#episodes {
 	}
 }
 
-section#zine {
-
-	.box {
-		background: $pink-light;
-		height:100%;
-		width:100%;
-
-		h2 {
-			color:$white;
-			background:$blue;
-			padding: $button-padding-vertical $button-padding-horizontal;
-			margin-left:-$box-padding;
-		}
-	}
-
-	a.preview {
-		display:block;
-		text-align:center;
-		margin-bottom:$gap*.75;
-		img {
-			vertical-align:bottom;
-		}
-
-		@include tablet {
-			float:right;
-			height:350px;
-			margin-left:$button-padding-horizontal;
-			margin-bottom:0;
-			img {
-				height:100%;
-			}
-		}
-	}
-}
-
 section#events {
 	background:$primary-light;
 
@@ -311,24 +276,6 @@ section#events {
 				font-weight:bold;
 			}
 		}
-	}
-}
-
-section#survey {
-	background:$pink;
-
-	.box {
-		padding:30px;
-
-		@include mobile {
-			h2 {
-				font-size: 1.5rem;
-			}
-		}
-	}
-
-	.box small {
-		font-family:$family-secondary;
 	}
 }
 
