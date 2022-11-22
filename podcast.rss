@@ -27,16 +27,15 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/assets/images/PTP_logo_itunes.jpg" />
-		<itunes:category text="Technology" />
-		<itunes:category text="Education">
-			<itunes:category text="Podcasting" />
+		<itunes:image href="{{ site.url }}/assets/images/BTRD_logo_itunes.jpg" />
+		<itunes:category text="Sports" />
+		<itunes:category text="Soccer" />
+					</itunes:category>
+		<itunes:category text="News">
+			<itunes:category text="Sports News" />
+			
 		</itunes:category>
-		<itunes:category text="Society &amp; Culture">
-			<itunes:category text="Philosophy" />
-			<itunes:category text="Self-help" />
-		</itunes:category>
-		<itunes:explicit>yes</itunes:explicit>
+		<itunes:explicit>no</itunes:explicit>
 		{% for post in site.episodes %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
