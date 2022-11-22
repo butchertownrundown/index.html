@@ -1,7 +1,7 @@
-title: Preserve This Podcast
-description: Preserve This Podcast is a project funded by the Andrew W. Mellon Foundation. We want to make sure that podcasts don’t disappear as software formats change and RSS hosting services go down.
-baseurl: ""
-url: "http://www.preservethispodcast.org"
+title: Butchertown Rundown
+description: A Racing Louisville Podcast
+baseurl: "https://butchertownrundown.github.io/index.html/"
+url: "https://butchertownrundown.github.io/index.html/"
 
 # Markdown settings
 markdown: kramdown
@@ -25,13 +25,13 @@ plugins:
   - jekyll-sitemap
 
 # Podcast Feed settings
-title:          Preserve This Podcast
-email:          preservethispodcast@protonmail.com
-description:    "Preserve This Podcast is an Andrew W. Mellon grant-funded project hosted by the Metropolitan New York Library Council (METRO) to help podcasters protect their work against the threats of digital decay."
-subtitle:       "A podcast about saving your podcast."
-url:            http://preservethispodcast.org/
+title:          Butchertown Rundown: A Racing Louisville Podcast
+email:          butchertownrundown@gmail.com
+description:    The first and only podcast about the NWSL'S Racing Louisville FC
+subtitle:       
+url:            https://butchertownrundown.github.io/index.html/
 language:       en-us
-author:         PreserveThisPodcast
+author:         Butchertown Rundown
 copyright:      "CC BY 4.0"
 
 feed:
